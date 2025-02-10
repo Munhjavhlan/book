@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Номын дэлгүүр</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="components/header-component.js" defer></script>
+    <script src="components/footer-component.js" defer></script>
+</head>
+<body>
+    <header-component></header-component>
+
+    <main>
+        <section class="nuur-slider">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="images/slider1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/slider2.jpg" alt="">
+                </div>
+                <!-- Slider dots -->
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                </div>
+                <!-- Slider arrows -->
+                <button class="slider-arrow prev">&#10094;</button>
+                <button class="slider-arrow next">&#10095;</button>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer-component></footer-component>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
